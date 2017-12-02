@@ -10,7 +10,7 @@ import dagger.Component;
  * Created by wangweijun1 on 2017/12/1.
  */
 @PerActivity
-@Component(modules = ThirdModule.class)
+@Component(modules = ThirdModule.class, dependencies = BaseComponet.class)
 public interface ThirdComponent {
 
     void inject(ThirdActivity thirdActivity);

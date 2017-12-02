@@ -10,7 +10,7 @@ import dagger.Component;
 
 /**
  * Created by wangweijun1 on 2017/12/1.
- * 1
+ *
  */
 @Singleton
 @Component(modules = MainModule.class)
